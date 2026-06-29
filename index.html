@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titanium | بورتوفوليو التصميم الغرافيكي</title>
+    
+    <!-- خطوط Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Playfair+Display:wght@400;700;900&family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- ربط ملف التصميم -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">TITANIUM</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">الرئيسية</a></li>
+                <li><a href="#about">من أنا</a></li>
+                <li><a href="#portfolio">أعمالي</a></li>
+                <li><a href="#contact">تواصل معي</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </div>
+    </nav>
+
+    <!-- الصفحة الرئيسية -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">TITANIUM</h1>
+            <p class="hero-subtitle">مصمم غرافيكي متخصص في الهويات البصرية والتصاميم الإبداعية</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">شاهد أعمالي</a>
+                <a href="#contact" class="btn btn-secondary">تواصل معي</a>
+            </div>
+        </div>
+        <div class="hero-decoration"></div>
+    </section>
+
+    <!-- قسم من أنا -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">من أنا</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="images/profile.jpg" alt="صورة شخصية" id="profile-img">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>أحول الأفكار إلى واقع بصري</h3>
+                    <p>أنا مصمم غرافيكي شغوف بإنشاء هويات بصرية مميزة وتصاميم إبداعية تجذب الانتباه. أمتلك خبرة واسعة في تصميم الشعارات، الهويات البصرية، والتصاميم الإعلانية.</p>
+                    <p>أسعى دائماً لتحويل رؤية عملائي إلى تصاميم فريدة تعكس قيمهم وأهدافهم.</p>
+                    <div class="skills">
+                        <span class="skill-tag">الهوية البصرية</span>
+                        <span class="skill-tag">تصميم الشعارات</span>
+                        <span class="skill-tag">التصميم الإعلاني</span>
+                        <span class="skill-tag">السوشيال ميديا</span>
+                        <span class="skill-tag">التعبئة والتغليف</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المعرض -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">أعمالي</h2>
+            
+            <!-- أزرار التصنيفات -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="logos">شعارات</button>
+                <button class="filter-btn" data-filter="identity">هويات بصرية</button>
+                <button class="filter-btn" data-filter="social">سوشيال ميديا</button>
+                <button class="filter-btn" data-filter="print">تصميم مطبوع</button>
+                <button class="filter-btn" data-filter="packaging">تعبئة وتغليف</button>
+                <button class="filter-btn" data-filter="billboard">لوحات إعلانية</button>
+                <button class="filter-btn" data-filter="certificates">شهادات وقارمات</button>
+                <button class="filter-btn" data-filter="invitations">دعوات</button>
+                <button class="filter-btn" data-filter="magazine">مجلات</button>
+                <button class="filter-btn" data-filter="ui">واجهات المستخدم</button>
+                <button class="filter-btn" data-filter="environmental">تصميم بيئي</button>
+                <button class="filter-btn" data-filter="motion">موشن جرافيك</button>
+            </div>
+
+            <!-- شبكة الأعمال -->
+            <div class="portfolio-grid">
+                <!-- مثال على عمل -->
+                <div class="portfolio-item" data-category="logos">
+                    <div class="portfolio-image">
+                        <img src="images/placeholder.jpg" alt="شعار عينة">
+                        <div class="portfolio-overlay">
+                            <h3>شعار شركة عينة</h3>
+                            <p>تصميم شعار احترافي</p>
+                            <a href="#" class="view-project">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- أضف المزيد من الأعمال هنا -->
+                <!-- سأضيف 12 عملاً كأمثلة -->
+                <div class="portfolio-item" data-category="identity">
+                    <div class="portfolio-image">
+                        <img src="images/placeholder.jpg" alt="هوية بصرية">
+                        <div class="portfolio-overlay">
+                            <h3>هوية شركة Titanium</h3>
+                            <p>هوية بصرية متكاملة</p>
+                            <a href="#" class="view-project">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-image">
+                        <img src="images/placeholder.jpg" alt="سوشيال ميديا">
+                        <div class="portfolio-overlay">
+                            <h3>حملة سوشيال ميديا</h3>
+                            <p>تصاميم إنستغرام</p>
+                            <a href="#" class="view-project">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <img src="images/placeholder.jpg" alt="تصميم مطبوع">
+                        <div class="portfolio-overlay">
+                            <h3>بروشور شركة عالمية</h3>
+                            <p>تصميم بروشور احترافي</p>
+                            <a href="#" class="view-project">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="packaging">
+                    <div class="portfolio-image">
+                        <img src="images/placeholder.jpg" alt="تعبئة وتغليف">
+                        <div class="portfolio-overlay">
+                            <h3>علبة منتج فاخر</h3>
+                            <p>تصميم تعبئة وتغليف</p>
+                            <a href="#" class="view-project">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="billboard">
+                    <div class="portfolio-image">
+                        <img src="images/placeholder.jpg" alt="لوحة إعلانية">
+                        <div class="portfolio-overlay">
+                            <h3>لوحة إعلانية ضخمة</h3>
+                            <p>تصميم لوحة خارجية</p>
+                            <a href="#" class="view-project">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="certificates">
+                    <div class="portfolio-image">
+                        <img src="images/placeholder.jpg" alt="شهادة">
+                        <div class="portfolio-overlay">
+                            <h3>شهادة تقدير فاخرة</h3>
+                            <p>تصميم شهادة رسمية</p>
+                            <a href="#" class="view-project">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="invitations">
+                    <div class="portfolio-image">
+                        <img src="images/placeholder.jpg" alt="دعوة">
+                        <div class="portfolio-overlay">
+                            <h3>بطاقة زفاف ملكية</h3>
+                            <p>تصميم دعوة فاخرة</p>
+                            <a href="#" class="view-project">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="magazine">
+                    <div class="portfolio-image">
+                        <img src="images/placeholder.jpg" alt="مجلة">
+                        <div class="portfolio-overlay">
+                            <h3>غلاف مجلة عالمية</h3>
+                            <p>تصميم غلاف احترافي</p>
+                            <a href="#" class="view-project">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="images/placeholder.jpg" alt="واجهة مستخدم">
+                        <div class="portfolio-overlay">
+                            <h3>تصميم تطبيق جوال</h3>
+                            <p>واجهة مستخدم UI</p>
+                            <a href="#" class="view-project">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="environmental">
+                    <div class="portfolio-image">
+                        <img src="images/placeholder.jpg" alt="تصميم بيئي">
+                        <div class="portfolio-overlay">
+                            <h3>لافتة محل تجاري</h3>
+                            <p>تصميم بيئي خارجي</p>
+                            <a href="#" class="view-project">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="motion">
+                    <div class="portfolio-image">
+                        <img src="images/placeholder.jpg" alt="موشن جرافيك">
+                        <div class="portfolio-overlay">
+                            <h3>فيديو موشن جرافيك</h3>
+                            <p>تصميم فيديو إعلاني</p>
+                            <a href="#" class="view-project">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">تواصل معي</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>لنبدأ مشروعاً جديداً</h3>
+                    <p>هل لديك فكرة أو مشروع؟ أنا هنا لمساعدتك في تحويلها إلى واقع بصري مميز.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="icon">📧</span>
+                            <span>your.email@example.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📱</span>
+                            <span>+966 50 000 0000</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📍</span>
+                            <span>المملكة العربية السعودية</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link">Behance</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="الاسم" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="البريد الإلكتروني" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">نوع المشروع</option>
+                            <option value="logo">شعار</option>
+                            <option value="identity">هوية بصرية</option>
+                            <option value="social">سوشيال ميديا</option>
+                            <option value="print">تصميم مطبوع</option>
+                            <option value="other">أخرى</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="تفاصيل المشروع" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Titanium. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <!-- ربط ملف الجافاسكريبت -->
+    <script src="script.js"></script>
+</body>
+</html>
